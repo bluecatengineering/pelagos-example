@@ -1,5 +1,5 @@
-import './AppTable.less';
 import {Table, TableBody, TableCell, TableHead, TableHeader, TableRow} from '@bluecateng/pelagos';
+import './AppTable.less';
 
 const columns = [];
 const data = [];

@@ -4,6 +4,7 @@ const Hello = () => (
 		<div style={{marginTop: '16px'}}>
 			<a href="#multi">See multi-column example</a>
 			<a href="#table">See table example</a>
+			<a href="#lineChart">See line chart example</a>
 		</div>
 	</>
 );
