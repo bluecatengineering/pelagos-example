@@ -17,7 +17,7 @@ const AppMulti = () => {
 	return (
 		<div className="AppMulti">
 			<h1>Multi-column example</h1>
-			<Button text="First" />
+			<Button text="Before" />
 			<h2 id="label">Letters</h2>
 			<MultiColumn
 				aria-labelledby="label"
@@ -30,7 +30,7 @@ const AppMulti = () => {
 				renderItem={renderItem}
 				onChange={setPath}
 			/>
-			<Button text="Last" />
+			<Button text="After" />
 		</div>
 	);
 };
