@@ -5,6 +5,7 @@ const Hello = () => (
 			<a href="#multi">See multi-column example</a>
 			<a href="#table">See table example</a>
 			<a href="#lineChart">See line chart example</a>
+			<a href="#dialog">See dialog example</a>
 		</div>
 	</>
 );
