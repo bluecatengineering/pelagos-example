@@ -2,7 +2,6 @@ import {useState} from 'react';
 import Hello from './Hello';
 import AppMulti from './AppMulti';
 import AppTable from './AppTable';
-import AppLineChart from './AppLineChart';
 import AppDialog from './AppDialog';
 
 const App = () => {
@@ -15,8 +14,6 @@ const App = () => {
 			return <AppMulti />;
 		case 'table':
 			return <AppTable />;
-		case 'lineChart':
-			return <AppLineChart />;
 		case 'dialog':
 			return <AppDialog />;
 		default:
