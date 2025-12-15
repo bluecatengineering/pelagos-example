@@ -1,19 +1,8 @@
 .AppTable {
-	flex: 1;
-	overflow-x: hidden;
-	overflow-y: auto;
-	contain: strict;
 	content-visibility: auto;
 }
 
 .AppTable__table {
-	table-layout: fixed;
-
-	& > thead {
-		top: 0;
-		position: sticky;
-	}
-
 	& > tbody > tr {
 		content-visibility: auto;
 		contain-intrinsic-size: 32px;

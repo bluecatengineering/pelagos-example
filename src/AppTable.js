@@ -1,4 +1,4 @@
-import {Table, TableBody, TableCell, TableHead, TableHeader, TableRow} from '@bluecateng/pelagos';
+import {Table, TableBody, TableCell, TableHead, TableHeader, TableRow, TableScrollWrapper} from '@bluecateng/pelagos';
 import './AppTable.less';
 
 const columns = [];
@@ -18,8 +18,8 @@ for (let i = 0; i < 1000; ++i) {
 }
 
 const AppTable = () => (
-	<div className="AppTable">
-		<Table className="AppTable__table">
+	<TableScrollWrapper className="AppTable">
+		<Table className="AppTable__table" fixedLayout stickyHeader>
 			<TableHead>
 				<TableRow>
 					{columns.map(({id, header, align, sortable}) => (
@@ -41,7 +41,7 @@ const AppTable = () => (
 				))}
 			</TableBody>
 		</Table>
-	</div>
+	</TableScrollWrapper>
 );
 
 export default AppTable;
